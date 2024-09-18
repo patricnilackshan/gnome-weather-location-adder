@@ -38,9 +38,13 @@ If using Flatpak, ensure the flatpak command is available on your system.
 The script performs the following steps:
 
 **Check GNOME Weather Installation**: Detect if GNOME Weather is installed either as a system app or a Flatpak.
+
 **Determine Locale**: Uses your system's locale settings for localization.
+
 **Search for Location**: Uses OpenStreetMap’s Nominatim service to find the location details.
+
 **Confirm Location**: Prompts for confirmation before adding the location.
+
 **Add Location**: Updates GNOME Weather’s location settings with the new location.
 
 <br>
